@@ -1,0 +1,55 @@
+* {
+  box-sizing:border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+.column {
+  flex: 25%;
+  padding: 0px 4px;
+
+}
+
+.item {
+  width:100%;
+}
+
+@media (max-width: 800px){
+  .column {
+    flex: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+  }
+}
+
+
+
+
+
+
+
+/*
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  background-color: aqua;
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+}
+*/
